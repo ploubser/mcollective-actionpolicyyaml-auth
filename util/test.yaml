@@ -1,0 +1,6 @@
+---
+"default": "allow"
+"get_fact" :
+    - "caller": "uid=500"
+      "facts": "arch=x86"
+      "classes": ["apache", "webserver"]
